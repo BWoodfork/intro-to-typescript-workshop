@@ -7,6 +7,7 @@ export function run() {
   const parsedRecords = parser.parseRecords()
   const sortedRecords = sorter.sortByReleaseDate(parsedRecords)
 
+  console.log(sortedRecords)
   return sortedRecords
 }
 

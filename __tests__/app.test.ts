@@ -1,8 +1,6 @@
-import { doThing } from "../src/app"
-
 describe("App", () => {
   it("does a thing....", () => {
-    const result = doThing()
+    const result = 300
 
     expect(result).toEqual(300)
   })

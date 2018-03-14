@@ -1,6 +1,6 @@
 import { _ } from "lodash"
 import { IMovie } from "./record-parser"
-import moment from "moment"
+import * as moment from "moment"
 
 export class RecordSorter {
   public sortRecordsByName(records: IMovie[]): IMovie[] {
