@@ -6,6 +6,10 @@
 
 `yarn run test`
 
+# Print records to console
+
+`ts-node src/app.ts`
+
 # Lesson 1 Notes
 
 We'll be answering the following questions:
