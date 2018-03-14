@@ -6,10 +6,12 @@
   "devDependencies": {
     "@types/jest": "^22.0.0",
     "jest": "~22.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
     "ts-jest": "^22.0.0",
+    "ts-node": "^4.1.0",
     "tslint": "~5.8.0",
-    "typescript": "~2.6.2",
-    "ts-node": "4.1.0"
+    "typescript": "~2.6.2"
   },
   "scripts": {
     "lint": "tslint -t stylish --project tsconfig.json",
@@ -32,6 +34,7 @@
     ]
   },
   "dependencies": {
-    "file-system": "^2.2.2"
+    "file-system": "^2.2.2",
+    "@types/node": "^7.0.5"
   }
 }
