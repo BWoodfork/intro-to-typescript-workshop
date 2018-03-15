@@ -5,9 +5,12 @@ export function run(): void {
   const parser = new RecordParser("raw-records.txt")
   const sorter = new RecordSorter()
   const parsedRecords = parser.parseRecords()
-  const sortedRecords = sorter.sortByReleaseDate(parsedRecords)
+  const sortedByReleaseDate = sorter.sortByReleaseDate(parsedRecords)
+  const sortByRecordName = sorter.sortRecordsByName(parsedRecords)
 
-  console.log(sortedRecords)
+  console.log(sortedByReleaseDate)
+  console.log("----------------------")
+  console.log(sortByRecordName)
 }
 
 run()

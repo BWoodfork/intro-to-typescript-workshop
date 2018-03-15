@@ -43,3 +43,9 @@ TBD...
 
 [Typescript Deep Dive]
 (https://basarat.gitbooks.io/typescript/docs/why-typescript.html)
+
+[Mozilla Javascript docs]
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[Learn about ES6 Features]
+(http://es6-features.org/)
