@@ -16,8 +16,7 @@ export class RecordSorter {
 
   public formatRecordDate(record: IMovie): IMovie {
     const convertDateToString = (date) => moment(date).format("MM-DD-YYYY")
-
-    return _.update(record, "releaseDate", convertDateToString)
+    return { ...record, releaseDate: convertDateToString(record.releaseDate) }
   }
 
   public parseDate(record: IMovie): IMovie {

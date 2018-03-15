@@ -13,6 +13,12 @@
     "tslint": "~5.8.0",
     "typescript": "~2.6.2"
   },
+  "dependencies": {
+    "@types/filesystem": "^0.0.28",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^7.0.5",
+    "file-system": "^2.2.2"
+  },
   "scripts": {
     "build": "tsc --p tsconfig.json",
     "lint": "tslint -t stylish --project tsconfig.json",
@@ -25,17 +31,6 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  },
-  "dependencies": {
-    "file-system": "^2.2.2",
-    "@types/node": "^7.0.5"
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   }
 }
