@@ -1,4 +1,5 @@
-# Install Deps
+# Install dependencies
+`brew install yarn`
 
 `yarn install`
 
@@ -27,10 +28,12 @@ And reviewing some aspects of Typescript
 - Null vs Undefined
 - let vs const
 - destructuring
+- spread operator
 
 And talking about external dependencies
+- Jest
 - Lodash
-- MomentJS
+- Moment
 
 # Lesson 2 Notes
 TBD...
