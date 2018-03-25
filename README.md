@@ -9,7 +9,7 @@
 
 # Print records to console
 
-`ts-node src/app.ts`
+`ts-node src/solution/app.ts`
 
 # Lesson 1 Notes
 
@@ -23,7 +23,7 @@ And reviewing some aspects of Typescript
 - Classes
 - Modules
 - Functions
-- Interfaces and Types
+- Interfaces and Types/Any
 - Equality in Typescript
 - Null vs Undefined
 - let vs const
@@ -36,16 +36,25 @@ And talking about external dependencies
 - Moment
 
 # Lesson 2 Notes
+- Iterators
+- Unions
+- Generics
 TBD...
 
+# Lesson ??? Notes
+- Promises
+ - catch
+ - then
+ - all
+ - race
+- Promises & Types
+- Async / Await
+
 # Other Typescript Learning Resouces
-[Typescript Docs](https://www.typescriptlang.org/docs/home.html)
+[Typescript Docs](https://www.typescriptlang.org/docs/home.html) 
 
-[Typescript Deep Dive]
-(https://basarat.gitbooks.io/typescript/docs/why-typescript.html)
+[Typescript Deep Dive](https://basarat.gitbooks.io/typescript/docs/why-typescript.html)
 
-[Mozilla Javascript docs]
-(https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[Mozilla Javascript docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[Learn about ES6 Features]
-(http://es6-features.org/)
+[Learn about ES6 Features](http://es6-features.org/)
